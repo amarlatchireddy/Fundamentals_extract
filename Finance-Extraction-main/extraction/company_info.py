@@ -21,7 +21,7 @@ def get_company_segments_v2(html_path):
     #     model="gpt-3.5-turbo-0125"
     # )
     model = ChatMistralAI(
-        mistral_api_key="XjDKSArDspNO81zsPXIFIQd06ib3x7nJ", model="mistral-medium-latest"
+        mistral_api_key="", model="mistral-medium-latest"
     )
     # set_llm_cache(SQLiteCache(database_path=".langchain.db"))
     # Define your desired data structure.
