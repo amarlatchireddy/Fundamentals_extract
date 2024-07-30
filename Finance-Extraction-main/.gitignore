@@ -1,0 +1,13 @@
+data/*
+*.xlsx
+*.pyc
+*.json
+data*/*
+benchmark*/*
+archive/*
+lightning_logs
+.ipynb_checkpoints
+*.txt
+reports/*
+debug.*
+*.log
